@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MazeTest" tests="11" skipped="0" failures="1" errors="0" timestamp="2022-11-28T04:37:36" hostname="LAPTOP-A29KGJMR" time="0.123">
+  <properties/>
+  <testcase name="inputsValidity()" classname="MazeTest" time="0.016"/>
+  <testcase name="input00()" classname="MazeTest" time="0.023"/>
+  <testcase name="input01()" classname="MazeTest" time="0.004"/>
+  <testcase name="input02()" classname="MazeTest" time="0.006"/>
+  <testcase name="input03()" classname="MazeTest" time="0.005"/>
+  <testcase name="input04()" classname="MazeTest" time="0.008"/>
+  <testcase name="input05()" classname="MazeTest" time="0.004"/>
+  <testcase name="input06()" classname="MazeTest" time="0.007"/>
+  <testcase name="input07()" classname="MazeTest" time="0.007"/>
+  <testcase name="input08()" classname="MazeTest" time="0.018"/>
+  <testcase name="input09()" classname="MazeTest" time="0.019">
+    <failure message="java.lang.StackOverflowError" type="java.lang.StackOverflowError">java.lang.StackOverflowError
+	at java.base/java.util.ArrayList.grow(ArrayList.java:244)
+	at java.base/java.util.ArrayList.add(ArrayList.java:454)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at Maze.JoinabilityAlgorithmMaze.getNeighbors(JoinabilityAlgorithmMaze.java:79)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:114)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+	at Maze.JoinabilityAlgorithmMaze.findEnd(JoinabilityAlgorithmMaze.java:120)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+#####################
+#_?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_______#
+##?[32m_?[0m_#?[32m_?[0m####__#_###_#_#
+#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#_____#___#_#_#
+#?[32m_?[0m#_#?[32m_?[0m#_######__#_###
+#?[32m_?[0m#_#?[32m_?[0m#_________#___#
+?[32m_?[0m?[32m_?[0m###?[32m_?[0m##__#########_#
+?[32m*?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+#_#?[32m_?[0m####__#?[32m_?[0m#_###?[32m_?[0m###
+#_#?[32m_?[0m#_#___#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m_#
+###?[32m_?[0m#_#_###?[32m_?[0m##__##?[32m_?[0m_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m#______?[32m_?[0m#___#_?[32m_?[0m_#
+#?[32m_?[0m######__#?[32m_?[0m######?[32m_?[0m_#
+#?[32m_?[0m#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___?[32m_?[0m?[32m_?[0m#
+#?[32m_?[0m#_########_?[32m_?[0m#####?[32m_?[0m#
+#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#____?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m#
+#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#_####?[32m_?[0m_#_#?[32m_?[0m#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m#
+#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m###?[32m_?[0m##__#_#?[32m_?[0m#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#__?[32m_?[0m?[32m_?[0m
+####################?[32m*?[0m
+Total nodes traversed : 132
+Max stack/recursion/queue size : 16
+
+#####################
+#___#_________#_____#
+#_###_######__#_##__#
+#_____#___#___#_#___#
+########__#_###_#####
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_______#_#_#___#
+#?[32m_?[0m##?[32m_?[0m_#######_#_#_#_#
+#?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m____#___#_#
+?[32m_?[0m?[32m_?[0m#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#########_#
+?[32m*?[0m_#?[32m_?[0m#_?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+###?[32m_?[0m##?[32m_?[0m_#_#_#####?[32m_?[0m#_#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#_#___#?[32m_?[0m__#
+#_#########_#_###?[32m_?[0m###
+#_________#_#____?[32m_?[0m?[32m_?[0m_#
+#_#####_#_########?[32m_?[0m_#
+#_#___#_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#
+#_#_###_#####_#?[32m_?[0m#####
+#_#___#___#_#_#?[32m_?[0m#_?[32m_?[0m?[32m_?[0m?[32m*?[0m
+#_#_#_###_#_#_#?[32m_?[0m##?[32m_?[0m_#
+#___#___#___#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#
+#####################
+Total nodes traversed : 140
+Max stack/recursion/queue size : 15
+
+###############################
+#_#___#___#___#___#_______#___#
+#_#_#_##__#_###_#_#_####__##__#
+#_#_#_____#_____#___#_____#___#
+#_#_#######_#########_#####_###
+#_#___#_______#_______#___#_#_#
+#_#_#_#########_#######_#_#_#_#
+#___#_____#_____#_______#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#####_#_#_#_#####_#######_#?[32m_?[0m#?[32m_?[0m#
+#_____#_#_#_________#___#_?[32m_?[0m?[32m_?[0m#?[32m_?[0m#
+#_#####_#_#########_#_#_##?[32m_?[0m_#?[32m_?[0m#
+#_____#_#_#_____#_#___#_#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#
+####__#_#_##__#_#_#####_#?[32m_?[0m###?[32m_?[0m#
+#_____#_#_#___#___#_____#?[32m_?[0m#_#?[32m_?[0m?[32m*?[0m
+#_#####_###_#####_#_#####?[32m_?[0m#_#_#
+#_#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#
+#_#_#_#######?[32m_?[0m#?[32m_?[0m#_#####?[32m_?[0m###_#_#
+#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#_#
+#####_###_#?[32m_?[0m#############_#_###
+#___#___#_#?[32m_?[0m#_______#___#_#___#
+#_#######_#?[32m_?[0m####__###_#_#_#_#_#
+#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#_#_#_#
+##__#_#_#######_#?[32m_?[0m#_#_#_#_#_#_#
+?[32m*?[0m?[32m_?[0m?[32m_?[0m_#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#_#_#___#_#_#
+##?[32m_?[0m_#_###_#?[32m_?[0m#?[32m_?[0m###?[32m_?[0m#_#######_#_#
+#?[32m_?[0m?[32m_?[0m_#___#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#_#_______#_#
+#?[32m_?[0m#######_#?[32m_?[0m##?[32m_?[0m_#?[32m_?[0m#_#_#######_#
+#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#_______#_#_#
+#?[32m_?[0m#?[32m_?[0m##__#####?[32m_?[0m###?[32m_?[0m######__#_#_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_______#___#
+###############################
+Total nodes traversed : 454
+Max stack/recursion/queue size : 17
+
+###############################
+#___#_#___#_____#___#_________#
+##__#_#_#_#_###_#_#_#######_#_#
+#___#___#_#___#_#_#_______#_#_#
+#_###_#_####__#_#_##__##__#_#_#
+#___#_#_______#___#___#___#_#_#
+###_###############_#_#####_###
+#_#_____#_________#_#_#___#___#
+#_##__#_###_####__#_#_#_#_##__#
+#_____#___#___#___#_#___#_____#
+#_#####_#_#_#_###_#####_#_#####
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#___#_____#_#_____#
+__#?[32m_?[0m#?[32m_?[0m#########_#####_#_####__#
+?[32m*?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#___#_#___#_____#
+########?[32m_?[0m_#_#_###_#_###########
+#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#___#_#_#_________#
+#_###?[32m_?[0m########__#_#_#_#######_#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_____#___#_______#_#
+#_#?[32m_?[0m####__#_##############__#_#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m____#___#_#
+#_#######?[32m_?[0m#_###?[32m_?[0m#_#?[32m_?[0m##__#_###_#
+#_______#?[32m_?[0m#__?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#___#_#___#
+##__##__#?[32m_?[0m###?[32m_?[0m#####?[32m_?[0m#_#####_###
+#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_______#_#
+#_#_#####_#?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m###########_#
+#_#_______#?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#
+#_#########?[32m_?[0m#?[32m_?[0m#_####?[32m_?[0m_#?[32m_?[0m####?[32m_?[0m_#
+#_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m_#
+#_#_##__#?[32m_?[0m######?[32m_?[0m_#?[32m_?[0m###?[32m_?[0m#_#?[32m_?[0m###
+#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m
+##############################?[32m*?[0m
+Total nodes traversed : 421
+Max stack/recursion/queue size : 15
+
+#########################################
+#___________#_______________#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#_###########_########__##__#_#######?[32m_?[0m#?[32m_?[0m#
+#_#_________#___#_______#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#
+#_#_#####_#_##__#_#######_#####_#_#?[32m_?[0m###?[32m_?[0m#
+#___#___#_#_____#_______#_#___#_#_?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#
+#####_#_###_#_#_#######_#_#_#_#_##?[32m_?[0m_#_#?[32m_?[0m#
+#_____#_____#_#_______#_#___#___#?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m#
+#_###########_#########_#########?[32m_?[0m###_#?[32m_?[0m#
+#___#_______#___#___#_____#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#?[32m_?[0m#
+##__#_#_######__#_#_#_###_#_#?[32m_?[0m#####_#_#?[32m_?[0m#
+#___#_#___#_____#_#_#_#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#?[32m_?[0m#
+#_#_#_##__#_#####_#_#_#_#_#_###?[32m_?[0m#_###_#?[32m_?[0m#
+#_#___#___#_#_#___#_#___#_#_#_#?[32m_?[0m#_#___#?[32m_?[0m#
+#_#####_###_#_#_###_#####_#_#_#?[32m_?[0m#_##__#?[32m_?[0m#
+#_#___#___#___#___#___#___#_#_#?[32m_?[0m#______?[32m_?[0m#
+###_#_###########_###_##__#_#_#?[32m_?[0m#######?[32m_?[0m#
+#___#_?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_____#___#?[32m_?[0m#_____#?[32m_?[0m?[32m*?[0m
+#_####?[32m_?[0m_#######?[32m_?[0m###_###########?[32m_?[0m#_###_###
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#_#_#___#
+#_#?[32m_?[0m#####_#_#####?[32m_?[0m##__#?[32m_?[0m###?[32m_?[0m#_#?[32m_?[0m#_#_##__#
+#_#?[32m_?[0m______#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#_#_____#
+#_#?[32m_?[0m#########_#####_#####_##?[32m_?[0m_#?[32m_?[0m#_#######
+#_#?[32m_?[0m____#_____#___#_#___#_#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m__#_____#
+###?[32m_?[0m###_#_###_#_#_#_#_#_#_#?[32m_?[0m###?[32m_?[0m###_#_#_#
+#__?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#_#_#_#___#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#_#_#_#
+#_###?[32m_?[0m###_#_#_#_#####_##__#########_#_###
+#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_______#___#_________#___#
+#_#_###?[32m_?[0m#_#################_####__#####_#
+#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___________#_____#___#___#_#
+#_#####_##?[32m_?[0m_#_#########_####__#_###_###_#
+#_#_____#?[32m_?[0m?[32m_?[0m_#___#_____#_______#___#_____#
+#_#_#####?[32m_?[0m####__#####_###_######__#####_#
+#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#___#___#_____#___#___#_#
+###_#?[32m_?[0m#_#########_#_#_#_####__#_###_#_###
+?[32m*?[0m?[32m_?[0m#_#?[32m_?[0m#_#_____#_#_#_#_#_#_____#_____#___#
+#?[32m_?[0m###?[32m_?[0m###_###_#_#_#_###_#_#####_#####_#_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_#___#___#_#_#_____#___#_#_#
+#_#####_##__#_#_####__#_###_#####_#_###_#
+#_______#___#___#___________#_____#_____#
+#########################################
+Total nodes traversed : 737
+Max stack/recursion/queue size : 28
+
+#########################################
+#_____#_______#_#_____#_#_____#___#___#_#
+#_##__#_##__#_#_#_###_#_#_###_#_#_#_#_#_#
+#_#___#_#___#___#___#___#___#___#_#_#___#
+#_#####_##############__##__#####_#_#####
+#_______#___________#___#___#_____#_____#
+#_#######_#########_#_#_#####_#######_###
+#_#___#___#___#___#___#_____#_______#___#
+#_#_#_#_####__#_####__#_###_#####_####__#
+#_#_#_#_#_#___#___#___#___#_____#___#___#
+#_#_#_#_#_#_####__#####_#_##__####__#_###
+#___#_____#_#_________#_#_#_________#___#
+#_######__#_##__####__#_#_############__#
+#___#_#___#_#___#_____#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m____#
+###_#_#_###_#_###_#####_#_#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#####
+#_#_#_#_#___#___#_______#_#?[32m_?[0m__#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#_#_#_#_#_###_#_###_#######?[32m_?[0m#_#####?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#
+#___#___#___#_#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#
+#_#_#####_###_#_#_#_#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m##__#_#####?[32m_?[0m#
+#_#_#___#_____#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#______?[32m_?[0m#
+#_#_#_#_#######_#######?[32m_?[0m#####_###_#####?[32m_?[0m#
+#_#_#_#___#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_____#___#___#?[32m_?[0m#
+###_#_##__##__#####?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#########_###?[32m_?[0m#
+#___#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_________#_#__?[32m_?[0m#
+#_###_#_###_###?[32m_?[0m###_#_#####_###_###_#_#?[32m_?[0m#
+#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m__#_#_#___#_#_#___#___#?[32m_?[0m#
+#######_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#####_###_#_#_#_#_#_#####?[32m_?[0m#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#___#_#_#___#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#?[32m_?[0m###?[32m_?[0m###?[32m_?[0m#####_#_###_#_#_#_#####_#_#?[32m_?[0m###
+#?[32m_?[0m#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_____#_#_#___#_____#__?[32m_?[0m#_#
+?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#?[32m_?[0m###_#_#######_#########_####_?[32m_?[0m#_#
+?[32m*?[0m_#_#?[32m_?[0m#?[32m_?[0m#___#_#_________#_____#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+###_#?[32m_?[0m#?[32m_?[0m#_###_#_#######_#_###_###_#?[32m_?[0m###_#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#___#_______#_#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m*?[0m
+#_#?[32m_?[0m###?[32m_?[0m#_#_#_#######_#_#######_#####?[32m_?[0m#?[32m_?[0m#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#_#_____#_#_#_____#___#_#?[32m_?[0m#?[32m_?[0m#
+#_#########_#_#_###_#_#_#_###_###_#_#?[32m_?[0m#?[32m_?[0m#
+#_#_________#_#_#_#_#_#___#_#___#_#_#?[32m_?[0m#?[32m_?[0m#
+#_#_###########_#_#_#_#_###_#_###_#_#?[32m_?[0m#?[32m_?[0m#
+#_______________#_____#_____#_____#__?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#########################################
+Total nodes traversed : 179
+Max stack/recursion/queue size : 12
+
+###################################################
+#___#___________#___#___________#_____#_____#_____#
+#_#_####__#_#####_#_#_#_#########_#_#_####__#####_#
+#_#___#___#_______#___#_#_________#_#___#_______#_#
+####__#_#####_#########_###_###########_#######_#_#
+#_____#_____#_#___#___#___#___#_______#_#___#_#_#_#
+#_#_######__#_#_#_#_#_###_##__#_#_###_#_#_#_#_#_#_#
+#_#_________#___#_#_#___#_#___#_#___#_#___#_#___#_#
+#################_#_###_#_#_###_#####_##__#_##__#_#
+#_____#_____#_____#___#_#_#___#_#___#_#___#_______#
+#_###_#_###_##__####__#_#_###_#_#_#_#_#_#_#########
+#___#___#_#_____#_____#_#___#_#_#_#_#_#_#_________#
+#_#_#####_#####_#_#_#######_#_#_###_#_#_####__###_#
+#_#_______#___#___#_____#_#_#_#_#___#___#_#___#_#_#
+#############_#########_#_#_#_#_#_#######_#_###_#_#
+#_____#_#___#___#_____#_#___#_#_#___#_____#_____#_#
+#_###_#_#_#_##__#_###_###_#####_###_#_#_#####_###_#
+#___#_____#_____#___#_#___#___#___#___#_#___#___#_#
+###_#_###############_#_###_#_###_#_###_#_#_#_#_###
+#_#_#_________________#_#___#___#_#___#_#_#___#___#
+#_#_#################_#_#_###_#_#_##__###_#######_#
+#_#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#___#_#___#___#_____#_#_#___#_#
+#_###?[32m_?[0m#########?[32m_?[0m##__#####_#############_#_#_#_#_#_#
+#___#?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#___#_____#_______#___#___#___#_#_#
+###_##?[32m_?[0m_#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_###_#####_###_###_#_#####_#_#_###
+?[32m*?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#___#___#_____#_______#_#___#
+#?[32m_?[0m#_#?[32m_?[0m###_#?[32m_?[0m#####_#_###_#_##__##__#####_#####_###_#
+#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m__#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#___#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#
+#?[32m_?[0m#_##_?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#?[32m_?[0m###_#_#####_###_###?[32m_?[0m#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#####_#
+#?[32m_?[0m__#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+#?[32m_?[0m###_#?[32m_?[0m#?[32m_?[0m###?[32m_?[0m###?[32m_?[0m#_###_#_#######?[32m_?[0m#########?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#
+#?[32m_?[0m#___#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#___#___#_____#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#
+#?[32m_?[0m#_###?[32m_?[0m#_#####_#?[32m_?[0m##__########__#?[32m_?[0m#_###?[32m_?[0m#####?[32m_?[0m#?[32m_?[0m#_#
+#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#_____#?[32m_?[0m#__?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#
+#?[32m_?[0m###?[32m_?[0m#####_#_#########?[32m_?[0m###_#####?[32m_?[0m###?[32m_?[0m###?[32m_?[0m#####?[32m_?[0m#_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+#####_#_###_#_#_#_#_#_#############_#######_#?[32m_?[0m###_#
+#___#_#_#___#___#___#_#___#___#___#_______#_#?[32m_?[0m__#?[32m_?[0m?[32m*?[0m
+#_###_#_#_#_##__#####_#_#_##__#_#_######__#_#?[32m_?[0m###?[32m_?[0m#
+#___#_#___#_#_____#___#_#_____#_#_#_______#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+##__#_#####_#_###_#_######__###_###_###############
+#___#_#___#_____#_#_#___#___#_#___#_#_______#_#___#
+#_###_#_#_#######_#_#_#_#_###_#_#_#_#_#_###_#_#_###
+#_____#_#_________#_#_#_____#___#___#_#_#_#___#___#
+#######_###########_#_####__#_#_#######_#_###_###_#
+#_____#_#_____#___#_#___#___#_#_____#___#___#___#_#
+#_###_#_#_###_###_#_##__#########_#_#_#_###_##__#_#
+#___#___#___#___#_#_____#_______#_#___#___#_____#_#
+##__##########__#_#_#####_#_###_#######_#_#######_#
+#_________________#_______#___#_________#_________#
+###################################################
+Total nodes traversed : 1248
+Max stack/recursion/queue size : 22
+
+###################################################
+#_____#___#___#_____#___#___#___#___#_____#_____#_#
+#_#_#_#_#_#_#_####__#_#_#_#_#_###_#_#_#_###_#_#_#_#
+#_#_#___#___#___#___#_#___#_____#_#___#_____#_#___#
+#_#_##########__#_#_#_########__#_#####_#####_#####
+#_#_______#_______#_#_#___#_____#___#___#___#_____#
+########__#_#########_#_#_#_#########_###_######__#
+#_____#___#_#___#___#___#_#_#___#___#_#_#_____#___#
+#_##__#####_#_#_#_#_#######_#_###_#_#_#_####__#_###
+#_#___#___#___#_#_#___#_____#_____#___#_#_____#_#_#
+#_#_###_#_##__#_#_#####_##__#_#_#######_#_#_###_#_#
+#_#___#_#_____#___#___#_#___#_#_______#___#_#___#_#
+#####_#_#_#########_#_###_###_#############_#_###_#
+#___#___#___#___#___#_#___#___#_______#_#___#_#___#
+#_#_##__#_#_#_#_#_###_#_###_###_#####_#_#_###_#_###
+#_#_____#_#_#_#_#___#___#_____#_#___#___#___#_#___#
+#_#####_###_#_#_###_###_####__#_#_###_#####_#_##__#
+#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#___#___#_#_____#_#___#_#___#_______#
+#######?[32m_?[0m#?[32m_?[0m#_#_#######_###_#####_##__#_#_#_####__#_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#_#_____#_#___#_________#___#_#_____#_#
+#?[32m_?[0m##__###?[32m_?[0m#_#_#_#_#_#_#_#_#_#############_#########
+#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#___#_#_#___#_____#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+?[32m_?[0m?[32m_?[0m#####?[32m_?[0m###_#####_#####_#_###_#_###_#_###_#?[32m_?[0m#####?[32m_?[0m#
+?[32m*?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#___#___#___#___#_#___#_#_____#?[32m_?[0m#___#?[32m_?[0m#
+###?[32m_?[0m#####_#_##__###_#_#####_#_#####_#######?[32m_?[0m##__#?[32m_?[0m#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m____#_#_______#_#_____#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m#___#?[32m_?[0m#
+#?[32m_?[0m#####_#_#######_#_####__#_#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m###_#?[32m_?[0m#_###?[32m_?[0m#
+#?[32m_?[0m#___#_#_______#___#_____#___#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#?[32m_?[0m#_###_#######_##__#_#########?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m##?[32m_?[0m_#_#?[32m_?[0m###
+#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m#_#
+#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m###?[32m_?[0m#######_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#################_#?[32m_?[0m#_#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m____#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____________#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#
+##__#?[32m_?[0m###?[32m_?[0m#_###?[32m_?[0m##__#_#?[32m_?[0m#####_##########__#_#?[32m_?[0m###_#
+#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m#___#_#?[32m_?[0m#___#_#___________#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#
+#_#######_##__#?[32m_?[0m#####_#?[32m_?[0m##__###_###########?[32m_?[0m###_###
+#___#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m#_#___#
+#_#_#_#_#########?[32m_?[0m#_###?[32m_?[0m#_###_###_#?[32m_?[0m#?[32m_?[0m#_###?[32m_?[0m#_##__#
+#_#___#_#_______#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_______#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_____#
+#_#######_####__#?[32m_?[0m#?[32m_?[0m##########__###?[32m_?[0m#####?[32m_?[0m#?[32m_?[0m####__#
+#_#_____#_#_____#?[32m_?[0m#?[32m_?[0m____#___#___#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#
+#_#_#_#_###_#####?[32m_?[0m#?[32m_?[0m#_#_#_#_#_###_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#_#_#_#_#
+#___#_#___#_#___#?[32m_?[0m#?[32m_?[0m#_#___#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#_#_#_#_#
+#########_#_#_###?[32m_?[0m#?[32m_?[0m###########_#_#####?[32m_?[0m#_#_#_#_#_#
+#_______#___#____?[32m_?[0m#?[32m_?[0m#_______#_#___#___#?[32m_?[0m#_#_#___#_#
+#_###########_##_?[32m_?[0m#?[32m_?[0m#_#####_#_#####_###?[32m_?[0m###_#####_#
+#_____________#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m__#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#____?[32m_?[0m?[32m_?[0m?[32m_?[0m#_______#
+###########_###?[32m_?[0m###?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#_###_#_#_#####?[32m_?[0m#########
+#___#_____#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#___#___#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_?[32m_?[0m?[32m_?[0m?[32m*?[0m
+#_###_#_#_#_#_###?[32m_?[0m#######?[32m_?[0m##__#_###_#_####__#?[32m_?[0m##?[32m_?[0m_#
+#_____#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#___#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#
+###################################################
+Total nodes traversed : 1077
+Max stack/recursion/queue size : 24
+
+#####################################################################################################
+#___#_________#___#_____________#_______#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#___#_________#___#_____#_____#___#
+#_###_####__#_###_#_#_#######_#_######__#_###_#?[32m_?[0m#######?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_##__#_###_#########_###_###_#_###_##__#
+#___#_#_____#___#_#_#___#___#_#_________#___#__?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#___#_#___#_______#_____#_#_#___#_____#
+#_#_#_#_######__#_#_#####_#_#_###########_#_#######?[32m_?[0m#_#####?[32m_?[0m#_#_###_#_###_#_##__#######_#_##__#_#####
+#_#_#_#_#_#_____#_#_#_____#_#_____#_____#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#___#?[32m_?[0m#_#_____#_____#_#___#_______#_____#_____#
+#_#_###_#_#_#_###_#_##__###_####__#_###_###_#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_#_###?[32m_?[0m#_##__#########_#_###_##__#_#_#####_###_#
+#_#_#___#_#_#_#___#_____#_#_#_____#___#___#___#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___________#_#_#___#___#___#_______#_#
+#_###_###_#_###_#########_#_#_###_#######_#####?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#####?[32m_?[0m#####_########__#_###_#####_#####_#######_#
+#_#___#___#___#_____#___#___#___#_#_____#_____#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#___#_____#___#_#___#___#_____#_____#
+#_#_###_####__#_##__##__#####_#_###_#_######__#?[32m_?[0m#####?[32m_?[0m#_###_#_###_#_#_######__#_#_#_##__#####_#_#####
+#_#_#_#_#_____#_#___#___#___#_#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#_____#___#_______#___#_#_____#_#_#_#___#
+#_#_#_#_#_#####_#_###_#_#_#_#_###_#_#?[32m_?[0m#######?[32m_?[0m#?[32m_?[0m#?[32m_?[0m######__#_########__#_#_#########_####__#_#_#_###_#
+#___#___#_____#_#_#___#_#_#_#_#_#___#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_______#___#_#_#_______#_#_______#_#___#_#
+###_#_#######_#_#_#####_#_#_#_#_#_###?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_###_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m###########_#_#####_#_####__#_#_#######_###_#_#
+#_#_____#___#___#_______#_#___#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m______#_#_#___#_#___#___#_#_______#___#_#_#
+#_#####_#_#######_#####_#_#####_#########?[32m_?[0m###_#_#########?[32m_?[0m#######_#_#_#_#_##__#_###_#_#####_#_###_#_#
+#_____#_#_____#_#_#___#_#_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#___#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#_#_#_#_____#_____#___#_#_#___#_#_#
+#_###_#_#_###_#_#_#_#_###_#_#####?[32m_?[0m###_#####_#####_###_#_####?[32m_?[0m_#_###_#_#######_####__###_#_#_###_#_#_#
+#___#___#_#_#_#___#_#_______#___#?[32m_?[0m__#_____#_________#_____#?[32m_?[0m?[32m_?[0m_#___#_#_#_____#___#___#_#_#___#_#_#___#
+#_#_#####_#_#_################__#?[32m_?[0m#######_#################?[32m_?[0m#######_#_#_#_#_#####_###_#_#####_#_#####
+#_#___#_#___#_#___________#_____#?[32m_?[0m____#_#___#_____________#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#_#_#_____#___#_#_____#___#___#
+#####_#_#_###_#_######__#_#_#####?[32m_?[0m##__#_###_#_##########__######?[32m_?[0m_#_###_#_###_#_###_#_#_###_#####_###
+#___#_____#___#_#___#___#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#___#_#_______#_#___#_#___?[32m_?[0m?[32m_?[0m#_____#___#_#_#_#___#___#_____#___#
+#_#_#######_###_#_#_#_###_#_#_#?[32m_?[0m###_#_##__#_##__###_#_#_###_#_###?[32m_?[0m#########_#_#_#_######__####__##__#
+#_#_____#___#_#___#_#___#___#_#?[32m_?[0m#_#_#_#___#_____#_#_#___#_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#_#_#___#_____#_____#___#
+__####__#_#_#_#_###_###_#####_#?[32m_?[0m#_#_###_#_#######_#_#_###_#_#####_#?[32m_?[0m#?[32m_?[0m##?[32m_?[0m_#_#_#_##__#_#############_#
+?[32m*?[0m?[32m_?[0m#_#___#_#_#_#___#___#___#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#_____#___#___#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#_#_#_____#_#_____#_____#_#
+#?[32m_?[0m#_#_###_#_#_#####_###_#_#_#_###?[32m_?[0m#_#_#####_#_#_##__##__######__#####_#?[32m_?[0m#####_#######_#_##__#_###_#_#
+#?[32m_?[0m#_#___#_#_________#___#_#_#_#_#?[32m_?[0m#_#_____#_#_#_#___#___#___#___#___#_#?[32m_?[0m#_____#_______#_#___#___#_#_#
+#?[32m_?[0m#_###_#_######__#_#_#_#_#_#_#_#?[32m_?[0m######__#_#_###_#####_#_#_#_###_#_###?[32m_?[0m#_#####_#######_#_###_#_#_#_#
+#?[32m_?[0m#___#_______#___#_#_#_#_#_#___#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_____#___#_#_#_______#___#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_______#_#___#_#___#
+#?[32m_?[0m###_######__#######_###_#_###_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#############_#_###_#######_##__#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_###########_#####_##__#
+#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#___#___#___#___#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m__#___#___#_#_____#_____#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#___#___#_____#___#_#___#
+###?[32m_?[0m#####_#_#_#_#_#_###_###_#_#_#######?[32m_?[0m#_#_#_#_###_#######_##__###_#######?[32m_?[0m###_#_#_#_#####_#_###_#_#
+#_#?[32m_?[0m____#___#_#_#_#_#_____#___#___#___#?[32m_?[0m#___#_#___#___#___#_#___#___#_#___#?[32m_?[0m#_#___#_____#___#___#_#_#
+#_#?[32m_?[0m#########_#_#_#_#_###_#_#_###_##__#?[32m_?[0m###_#_#_#_##__#_###_#_###_#_#_#_#_#?[32m_?[0m#_########__#_#_###_#_#_#
+#__?[32m_?[0m#_?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#_#_#___#___#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_______#___#_#___#___#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_#_#_#___#_#
+##_?[32m_?[0m##?[32m_?[0m_#?[32m_?[0m#####_#_####__######__####__#_#?[32m_?[0m#_#############_#####_#######_#_#######?[32m_?[0m#_#####_#_#_#####_#
+#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#___#_____________#_#?[32m_?[0m#_#___________#___#___#_______#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_______#_____#___#
+##_?[32m_?[0m#?[32m_?[0m#######?[32m_?[0m#####_#_##############__###?[32m_?[0m###_#########_###_#_###########_#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#############_#_###
+#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#_____#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_____#___#___#_____#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#_____#_#___#
+#_#?[32m_?[0m#####?[32m_?[0m#_###?[32m_?[0m#_#_###_#_###_###_#_###?[32m_?[0m###_#####_###_##__#####_###_#_#_#?[32m_?[0m###_#########_####__#_##__#
+#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#_#?[32m_?[0m#_#_#_#_#___#___#___#_#?[32m_?[0m#_______#_#_#_____#_______#___#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#
+#_#_###?[32m_?[0m#?[32m_?[0m#_#_#?[32m_?[0m#_#_#_#_###_###_##__#_#?[32m_?[0m######__#_#_#######_#############?[32m_?[0m#?[32m_?[0m###?[32m_?[0m#?[32m_?[0m###?[32m_?[0m#_#?[32m_?[0m###?[32m_?[0m#_#_###
+#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#___#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#___#_____#_#_________#?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#?[32m_?[0m#?[32m_?[0m__#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#?[32m_?[0m#_#___#
+#_#########_#?[32m_?[0m#####_#_#_####__#######?[32m_?[0m###?[32m_?[0m#?[32m_?[0m#####_###_#_#_###_#_#######_#?[32m_?[0m##?[32m_?[0m_#?[32m_?[0m#?[32m_?[0m###_#######?[32m_?[0m####__#
+#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#___#___#___#__?[32m_?[0m#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m__#___#_#_#___#___#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_____#
+######__#?[32m_?[0m#####?[32m_?[0m#?[32m_?[0m###_###_#_####__#_#?[32m_?[0m#_#?[32m_?[0m##_?[32m_?[0m####__#_#_#_#_#####_##__#_###########_###_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_###_#
+#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#___#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#__?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#___#_#_______#___#_____#_____#___#__?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#
+#_###_###########_#?[32m_?[0m#_#_#####_##__#####?[32m_?[0m#?[32m_?[0m#####?[32m_?[0m#_###_###_#########_#_####__#_#######_#_#?[32m_?[0m#######_#_#
+#_____#_______#___#?[32m_?[0m__#_______#___#___#?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#_#?[32m_?[0m__#___#___#___#___#_#_______#_______#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#_#
+##########__#_#_###?[32m_?[0m###_#_#########_###?[32m_?[0m##?[32m_?[0m_#_#?[32m_?[0m#######_###_#_###_################__#_#_#######?[32m_?[0m#_#_#
+#_______#___#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#___#_#___#___#_____#___#_____#_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#_#_#
+#_###_#_#####_##__###?[32m_?[0m#_##__#_#?[32m_?[0m#####?[32m_?[0m############?[32m_?[0m_#_###_#_#_#_##__#_###_###_#_#####_#_#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#_###
+#___#_#___#_________#?[32m_?[0m#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m__#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#___#_#_____#___#___#_#___#___#_#_#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#
+##__#_###_#_#########?[32m_?[0m#_#####?[32m_?[0m###_#_###?[32m_?[0m###_#_#?[32m_?[0m#######_###############_##__#_###_#_#_#_#_#?[32m_?[0m######__#
+#___#_#_#_#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_#_#?[32m_?[0m?[32m_?[0m_#_#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_______________#_#_______#___#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_____#
+#_###_#_#_#_#_###_#_###########_###_#_##?[32m_?[0m_#_#####?[32m_?[0m#_#_#_####__#########_#######_#####_#######?[32m_?[0m#_#####
+#_#_#_#_____#___#_#___#_________#___#___?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m__#_#___#___#_______#___#___#___#___#_____#?[32m_?[0m______#
+#_#_#_#######_#_#_##__#_##############__######?[32m_?[0m_#?[32m_?[0m#####_#_#####_#####_##__#_#_###_#_#_#_#####?[32m_?[0m####__#
+#___#_#___#___#_#_#___#_______#_____#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#?[32m_?[0m?[32m_?[0m_#___#_____#_#___#_#___#_#___#___#_#_____#?[32m_?[0m#_____#
+###_###_#_#_###_#_###_#######_#_##__#####?[32m_?[0m########?[32m_?[0m_#_####__#_#_#_#_#_#_#_#_#_#######_####__#?[32m_?[0m#######
+#_#_#___#_#_#___#___#_______#___#___#___#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#___#___#_#_#_#_#_#_#___#___#_#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#
+#_#_#_###_#_#_####__#_#####_#####_###_#_#?[32m_?[0m##__#?[32m_?[0m#######_#_#######_#_#_#_###_###_##__#_#_########?[32m_?[0m_#_#
+#___#_#___#_#_#_____#_#___#_#_____#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#_#_#_____#_#_#_#_#_____#_________#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#_#
+#_###_#_###_#_#_#######_#_#_#_##__#_###_#####?[32m_?[0m####?[32m_?[0m_#_#_#_#_##__#_#_#_#_#_###############?[32m_?[0m#####_###_#
+#_#___#_____#_#_______#_#_#_#_#___#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m_#___#_#_#___#_#_#_#_#___#___#_____#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#_____#
+#_#_###_#####_#_####__###_#_###_#####_#########?[32m_?[0m#?[32m_?[0m#####_#_#_#_###_#_###_##__#_###_##__#?[32m_?[0m###_#_#######
+#___#___#_____#___#_____#_#_#___#___#_________#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_____#_____#___#_____#___#?[32m_?[0m#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#####_###_######__#_##__#_###_###_#_#########_#?[32m_?[0m#####?[32m_?[0m#######_#_#_#######_##########__#?[32m_?[0m#####?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#
+#_____#_#_#_______#_#___#___#_#___#_#_#_____#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m_#___#_#_#_____#_____#_______#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m#?[32m_?[0m#
+#_#####_#_#_#########_####__#_#_###_#_#_###_#_#_#?[32m_?[0m#_####?[32m_?[0m_#######_#_##__#_#_###_#########?[32m_?[0m#?[32m_?[0m#######?[32m_?[0m#
+#___#_#_#___#_______#_#_____#___#___#_#___#_#_#_#?[32m_?[0m__#_#?[32m_?[0m?[32m_?[0m_#_______#_#___#_#_#_________#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+##__#_#_###_#_#####_#_#_#####_###_###_##__#_#_#_#?[32m_?[0m###_#?[32m_?[0m###_###_###_#####_#_#_#######_#_#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m#######
+#___#_#___#_#_#___#_#_________#_____#_#___#___#_#?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#?[32m_?[0m#_#_#_#___#_____#_#_#_#_____#___#?[32m_?[0m#?[32m_?[0m#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m__#
+#_###_##__#_#_#_#_#_###########_#####_#_#_#_###_###?[32m_?[0m#_#?[32m_?[0m#_#_#_###_#_###_#_###_#_###_#####?[32m_?[0m#?[32m_?[0m#####?[32m_?[0m#_#
+#_____#___#___#_#_____#___#_____#_______#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m?[32m_?[0m#_#___#_#___#_#_#_____#_#_#_#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#___#?[32m_?[0m#_#
+####__#_############__#_#_#_######__##__#########_#######_##__#_#####_#_#######_#_#_#_#_######__#?[32m_?[0m###
+#_#___#_______#___#_____#_#_#_______#___#_______#_#_____#_______#___#_#_________#_#___#_#___#___#?[32m_?[0m?[32m_?[0m?[32m_?[0m#
+#_#_###_#######_#_#######_#_#_###########_#####_#_#_###_#########_###_###########_#####_##__#_#####?[32m_?[0m#
+#___#___#___#___#_______#_#_#___#_______#_____#_#___#_#_#_#_____________#___#___#_#___#_____#_____#?[32m_?[0m?[32m*?[0m
+###_#_####__#_###########_#_#_###_#####_#######_#####_#_#_#_###########_#_#_#_#_#_#_###_######__#_#_#
+#_#_____#___#___#_________#___#___#___#___________#_____#___#___#___#_#_#_#_#_#_#_#___#_#_______#_#_#
+#_####__#_####__######__#_#####_###_#############_#_#####_#_#_###_#_#_#_#_###_#_#_##__#_#_#########_#
+#___#___#_#_____#_______#_______#_______#_____#_#_#_____#_#_______#_#___#_____#_#_______#___#_#___#_#
+#_###_###_#_#####_#######_############__#####_#_#_#_##__#_#########_###########_##########__#_#_#_#_#
+#_#___#___#___#___#_____#_______#___#_______#_#___#_#___#_#_______#_#___________________#___#___#___#
+#_#_#_#_#_##__#_#_#_###_######__#_#_####__#_#_#_###_#####_#_#####_#_#_###################_#####_#####
+#___#_#_#_____#_#_#___#___#_____#_#_______#___#_#_#_#_____#_#___#___#_#___________#_____#_____#_____#
+#_#####_#_#####_#####_#_#_#_#####_#########_###_#_#_#_#######_#_##__#_###_#######_#_##__####__#####_#
+#_#_____#_#_____#___#_#_#_#_#___________#_#___#_#___#_____#___#_#___#___#_______#_#_#___#_#___#___#_#
+#_#_#####_#_#####_#_#_###_###_#########_#_##__#_#########_#_###_#_#####_#####_###_#_#_#_#_#_###_#_#_#
+#_#_#___#_#_______#_#___#___#_____#___#_#_____#_____#___#___#___#_#___#___#_#___#___#_#_____#___#_#_#
+#_#_##__####__#####_###_###_#####_#_#_#_##########__#_#_##__#_#####_#_###_#_#_#_##__#######_#_###_#_#
+#_#_#___#_____#_#___#_#___#___#_#_#_#_#_________#_____#_____#_____#_#___#_____#_#___#_____#___#___#_#
+#_#_#_###_#####_#_###_##__###_#_#_###_#_######__#_###########_###_#_###_#_#######_###_##__#########_#
+#_#_#_#___#_____#___#_____#_#___#_____#_____#___#___#___#___#___#_#___#_#_#_#_____#___#_______#_____#
+#_#_#_#_###_#_###_#_#######_#_####__######__#_#######_#_#_####__#_##__#_#_#_#_#_###_########__#_#####
+#_#_____#___#_____#_________#_______#_______#_________#_________#_____#___#___#_____#_________#_____#
+#####################################################################################################
+Total nodes traversed : 4058
+Max stack/recursion/queue size : 77
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
